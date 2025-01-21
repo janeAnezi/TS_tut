@@ -25,3 +25,24 @@ random.push('olive');
 random[0] = 16;
 random.push(false);
 // ***** OBJECTS
+var character = {
+    agent: 'joe',
+    age: 40,
+    isSingle: true
+};
+character.agent = 'adam';
+character.age = 22;
+character.isSingle = false;
+//character.agent = 20
+//character.age = '25'
+//character.isSingle = 'yes'
+character = {
+    agent: 'james',
+    age: 26,
+    isSingle: false
+};
+// character = {
+//     person: 'kings',
+//     age: 11,
+//     occupation: 'teacher'
+// }
