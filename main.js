@@ -11,3 +11,17 @@ var calc = function (dia) {
 };
 console.log(calc(8));
 //***********  OBJECTS AND ARRAYS ********** 
+// ***** ARRAYS
+var members = ['julie', 'adiel', 'hapie'];
+members.push('ajebo');
+//members.push(2)
+//members[2] = 4
+var ages = [19, 13, 26, 11];
+ages.push(21);
+//ages.push('new')
+//ages[0] = true
+var random = [23, 'ivana', true, 30];
+random.push('olive');
+random[0] = 16;
+random.push(false);
+// ***** OBJECTS
