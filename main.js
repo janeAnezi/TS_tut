@@ -53,3 +53,8 @@ var personName;
 personAge: 55;
 isComing: false;
 personName: "asa bekee";
+// explicit Arrays
+var fruits = [];
+fruits.push('banana');
+var traineesAge;
+traineesAge = [10, 34, 23];

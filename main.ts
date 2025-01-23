@@ -69,3 +69,11 @@ let personName: string;
 personAge: 55;
 isComing: false;
 personName: "asa bekee";
+
+
+// explicit Arrays
+let fruits: string[] = []
+fruits.push('banana')
+
+let traineesAge: number[]
+traineesAge = [10, 34,23]
