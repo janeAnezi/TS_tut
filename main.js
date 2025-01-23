@@ -58,3 +58,11 @@ var fruits = [];
 fruits.push('banana');
 var traineesAge;
 traineesAge = [10, 34, 23];
+// union types
+var characters = [];
+characters.push(50);
+characters.push('single');
+characters.push('false');
+var spec;
+spec = 'single';
+spec = true;

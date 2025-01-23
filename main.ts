@@ -77,3 +77,13 @@ fruits.push('banana')
 
 let traineesAge: number[]
 traineesAge = [10, 34,23]
+
+// union types
+let characters: (string|number|boolean)[] = []
+characters.push(50);
+characters.push('single');
+characters.push('false')
+
+let spec: string|boolean;
+spec = 'single';
+spec = true
