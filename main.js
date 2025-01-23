@@ -66,3 +66,9 @@ characters.push('false');
 var spec;
 spec = 'single';
 spec = true;
+// explicit objects
+var techies;
+techies = { name: "blessing", age: 11 };
+techies = [];
+var newTechies;
+newTechies = { nameT: "abram", ageT: 20, color: 'white' };

@@ -87,3 +87,16 @@ characters.push('false')
 let spec: string|boolean;
 spec = 'single';
 spec = true
+
+// explicit objects
+let techies: object;
+techies = {name: "blessing", age: 11}
+techies = [];
+
+let newTechies: {
+    nameT: string,
+    ageT: number,
+    color: string
+}
+
+newTechies = {nameT: "abram", ageT: 20, color: 'white' }
