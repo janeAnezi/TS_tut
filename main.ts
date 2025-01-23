@@ -59,3 +59,13 @@ character = {
 //     age: 11,
 //     occupation: 'teacher'
 // }
+
+//***********  Explicit types********** 
+
+let personAge: number;
+let isComing: boolean;
+let personName: string;
+
+personAge: 55;
+isComing: false;
+personName: "asa bekee";

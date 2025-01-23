@@ -46,3 +46,10 @@ character = {
 //     age: 11,
 //     occupation: 'teacher'
 // }
+//***********  Explicit types********** 
+var personAge;
+var isComing;
+var personName;
+personAge: 55;
+isComing: false;
+personName: "asa bekee";
