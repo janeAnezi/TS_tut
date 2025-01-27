@@ -100,3 +100,19 @@ let newTechies: {
 }
 
 newTechies = {nameT: "abram", ageT: 20, color: 'white' }
+
+// dynamic 'any' types
+let date : any;
+date = 15;
+date = 'single';
+date = true;
+date = {year: 'Aprail', month: 12}
+
+let mixed: any[]  = [];
+mixed.push(10);
+mixed.push('monday');
+mixed.push(true);
+
+let weeks: {days: any, time: any};
+weeks = {days: 7, time: 'morning'}
+weeks = {days: 'all days', time: 10}
