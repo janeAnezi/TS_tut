@@ -14,3 +14,8 @@ let sum = (num1, num2, num3, num4 = 45) => {
     console.log(num4);
 };
 sum(5, 7);
+let minus = (val1, val2) => {
+    return (val2 - val1);
+};
+let result = minus(6, 13);
+console.log(result);
