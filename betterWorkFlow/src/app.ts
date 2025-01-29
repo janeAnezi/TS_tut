@@ -22,3 +22,14 @@ let minus = (val1:number, val2:number) => {
 
 let result = minus(6,3)
 console.log(result);
+
+//*********** TYPE ALIASES ********** 
+type stringOrNum = string | number;
+
+let newItem = (uid: stringOrNum, item: string) => {
+    console.log(`${item} has the uid of ${uid} `)
+}
+
+let greet = (user: {name: string, item: stringOrNum}) => {
+    console.log(`${user.name} says hello`)
+}
