@@ -33,3 +33,24 @@ let newItem = (uid: stringOrNum, item: string) => {
 let greet = (user: {name: string, item: stringOrNum}) => {
     console.log(`${user.name} says hello`)
 }
+
+//*********** FUNCTION SIGNATURES ********** 
+let salute : (first: string, sec: string) => void;
+salute = (name: string, greeting: string) => {
+    console.log(`${name} says ${greeting}`);
+}
+
+let calc: (numOne: number, numTwo: number, action: string)=> number;
+calc = (num1: number, num2: number, action: string)=>{
+    if(action === 'add') {
+        return num1 + num2
+    }else {
+       return num1 + num2
+    }
+}
+
+type person = {name: string, age: number};
+let dateOfBrith: (obj: person) => void;
+dateOfBrith = (obj: person)=> {
+    console.log(`${obj.name} is ${obj.age} years old`);
+}
