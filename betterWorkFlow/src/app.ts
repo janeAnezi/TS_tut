@@ -54,3 +54,6 @@ let dateOfBrith: (obj: person) => void;
 dateOfBrith = (obj: person)=> {
     console.log(`${obj.name} is ${obj.age} years old`);
 }
+
+
+//***********   THE DOM AND TYPE CASTING ********** 
