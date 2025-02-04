@@ -53,3 +53,5 @@ console.log(anchor.href);
 //anchor.animate
 const form = document.querySelector('.new-item-form'); // Type casting
 console.log(form.children);
+// inputs
+const input = document.querySelector('#type');

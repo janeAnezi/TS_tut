@@ -68,4 +68,7 @@ const anchor = document.querySelector('a')!;
 
  const form = document.querySelector('.new-item-form') as HTMLFormElement; // Type casting
  console.log(form.children);
+
+ // inputs
+ const input = document.querySelector('#type') as HTMLSelectElement;
  
