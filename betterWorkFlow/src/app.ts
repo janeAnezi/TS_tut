@@ -57,10 +57,15 @@ dateOfBrith = (obj: person)=> {
 
 
 //***********   THE DOM AND TYPE CASTING ********** 
-const anchor = document.querySelector('a')!
+const anchor = document.querySelector('a')!;
+// TS creates types for every dome element
 
 // if(anchor) {
 //     console.log(anchor.href)
 // }
  console.log(anchor.href);
+ //anchor.animate
+
+ const form = document.querySelector('.new-item-form') as HTMLFormElement; // Type casting
+ console.log(form.children);
  
