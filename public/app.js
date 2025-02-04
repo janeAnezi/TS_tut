@@ -51,7 +51,11 @@ const anchor = document.querySelector('a');
 // }
 console.log(anchor.href);
 //anchor.animate
-const form = document.querySelector('.new-item-form'); // Type casting
+// Type casting
+const form = document.querySelector('.new-item-form');
 console.log(form.children);
 // inputs
-const input = document.querySelector('#type');
+const type = document.querySelector('#type');
+const tofrom = document.querySelector('#tofrom');
+const details = document.querySelector('#tofrom');
+const amount = document.querySelector('#tofrom');

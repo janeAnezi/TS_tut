@@ -66,9 +66,15 @@ const anchor = document.querySelector('a')!;
  console.log(anchor.href);
  //anchor.animate
 
- const form = document.querySelector('.new-item-form') as HTMLFormElement; // Type casting
+// Type casting
+ const form = document.querySelector('.new-item-form') as HTMLFormElement; 
  console.log(form.children);
 
  // inputs
- const input = document.querySelector('#type') as HTMLSelectElement;
+ const type = document.querySelector('#type') as HTMLSelectElement;
+
+ const tofrom = document.querySelector('#tofrom') as HTMLInputElement;
+
+ const details = document.querySelector('#tofrom') as HTMLInputElement;
+ const amount = document.querySelector('#tofrom') as HTMLInputElement;
  
